@@ -72,6 +72,12 @@
             </intent-filter>
         </receiver>
 
+        <activity                                                      
+           android:name=".TouchscreenGestureSettings"                    
+           android:label="@string/touchscreen_gesture_settings_title"    
+           android:theme="@style/Theme.SubSettingsBase">                 
+        </activity> 
+
         <!-- DC-Dimming Tile -->
         <service
             android:name="org.nameless.device.OnePlusSettings.Tiles.DCModeTileService"
