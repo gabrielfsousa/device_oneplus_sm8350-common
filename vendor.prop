@@ -65,13 +65,10 @@ persist.sys.fflag.override.settings_bluetooth_hearing_aid=true
 persist.vendor.bluetooth.modem_nv_support=true
 persist.vendor.bt.aac_frm_ctl.enabled=true
 persist.vendor.bt.aac_vbr_frm_ctl.enabled=true
-persist.vendor.qcom.bluetooth.a2dp_mcast_test.enabled=false
 persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptiver2
 persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true
 persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=true
 persist.vendor.qcom.bluetooth.aptxadaptiver2_1_support=true
-persist.vendor.qcom.bluetooth.scram.enabled=false
-persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 ro.bluetooth.a2dp_offload.supported=true
 
 # Chipset
@@ -133,7 +130,6 @@ ro.incremental.enable=yes
 debug.stagefright.ccodec=4
 debug.stagefright.omx_default_rank=0
 vendor.media.vpp.enable=0
-vendor.media.vpp.oplus.version=2
 vendor.media.vpp.osie.enable=0
 vendor.media.vpp.sr.enable=0
 
@@ -154,8 +150,6 @@ persist.vendor.sensors.on_change_sample_period=true
 persist.vendor.sensors.sync_request=true
 
 # USB
+sys.usb.mtp.batchcancel=1
 vendor.usb.diag.func.name=ffs
 vendor.usb.use_ffs_mtp=1
-
-# WiFi
-wifi.aware.interface=wifi-aware0
