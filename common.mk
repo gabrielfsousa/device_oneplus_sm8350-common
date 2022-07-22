@@ -123,7 +123,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml
 
 # Get Oneplus Camera
-$(call inherit-product-if-exists, vendor/oneplus/apps/sm8350/config.mk)
+#$(call inherit-product-if-exists, vendor/oneplus/apps/sm8350/config.mk)
 
 # Charge control
 PRODUCT_PACKAGES += \
