@@ -43,6 +43,11 @@
     <string name="dc_mode_title">DC Dimming</string>
     <string name="tile_dc_mode">DC Dimming</string>
 
+    <!-- Touchscreen gestures -->                                                                                          
+    <string name="screen_gestures_panel_title">Gestures</string>                                                        
+    <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>                                     
+    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+
     <!-- Doze -->
     <string name="ambient_enable">Use ambient display</string>
     <string name="ambient_display_enable_summary">Wake screen when you receive notifications</string>

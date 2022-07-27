@@ -101,6 +101,12 @@
             </intent-filter>
         </service>
 
+        <activity                                                      
+           android:name=".TouchscreenGestureSettings"                    
+           android:label="@string/touchscreen_gesture_settings_title"    
+           android:theme="@style/Theme.SubSettingsBase">                 
+        </activity>
+
         <!-- DozeSettings Activity -->
         <activity
             android:name="org.nameless.device.OnePlusSettings.Doze.DozeSettingsActivity"
