@@ -15,5 +15,10 @@
     "repository": "vendor_oneplus-firmware",
     "target_path": "vendor/oneplus-firmware",
     "remote": "gitlab-stag"
+  },
+  {
+    "repository": "vendor_oplus_camera",
+    "target_path": "vendor/oplus/camera",
+    "remote": "gitlab-stag"
   }
 ]
